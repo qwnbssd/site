@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакти</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header-nav">
+        <table class="header-nav-table">
+          <tr class="header-nav-row">
+            <td class="header-nav-list-item">
+              <a href="index.html">Дім</a>
+            </td>
+            <td class="header-nav-list-item">
+              <a href="tour.html">Тури</a>
+            </td>
+            <td class="header-nav-list-item">
+              <a href="advice.html">Поради</a>
+            </td>
+            <td class="header-nav-list-item-title">
+              <a href="index.html"> Horizont </a>
+            </td>
+            <td class="header-nav-list-item">
+              <a href="services_block.html">Послуги</a>
+            </td>
+            <td class="header-nav-list-item">
+              <a href="contacts.html">Контакти</a>
+            </td>
+            <td class="header-nav-list-item">
+              <a href="review.html">Відгуки</a>
+            </td>
+          </tr>
+        </table>
+      </nav>
+    </header>
+    <main>
+      <div class="contacts">
+        <h1 class="title">Контакти</h1>
+        <p class="subtitle">Зв'яжіться з нами зараз</p>
+        <p class="description">
+          Забронюйте тур онлайн або зв'яжіться з нами у зручний для вас спосіб.
+        </p>
+
+        <table class="contact-table">
+          <tr>
+            <td class="contact-info">
+              <p class="contact-info-text">
+                Ми завжди раді допомогти вам спланувати ідеальну подорож.
+                Туристичне агентство "Горизонт" пропонує найкращі пропозиції для
+                подорожей по всьому світу. Якщо у вас є питання або ви хочете
+                забронювати тур, не вагайтеся звернутися до нас. Наші
+                спеціалісти з радістю допоможуть вам знайти оптимальний варіант
+                подорожі, враховуючи всі ваші побажання та вимоги.
+              </p>
+              <h2>📞 Телефон для бронювання</h2>
+              <p>+38 (044) 123 45 67</p>
+
+              <h2>📧 Електронна пошта</h2>
+              <p>travel.agency@email.com</p>
+
+              <h2>📍 Наш офіс</h2>
+              <p>м. Київ, вул. Хрещатик, 15</p>
+            </td>
+            <td class="form-container">
+              <form action="#" method="POST" class="contact-form">
+                <label for="name">Ваше ім'я*</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Ваше ім'я"
+                  required
+                />
+
+                <label for="email">Електронна пошта</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="example@email.com"
+                />
+
+                <label for="checkin">Дата подорожі</label>
+                <input type="date" id="checkin" name="checkin" />
+
+                <label for="checkout">Куди їдемо?</label>
+                <input type="text" id="text" name="text" placeholder="Париж" />
+
+                <label for="guests">Кількість людей</label>
+                <input
+                  type="number"
+                  id="guests"
+                  name="guests"
+                  placeholder="1"
+                />
+
+                <label for="roomtype">Тип туру</label>
+                <select id="roomtype" name="roomtype">
+                  <option value="пляжний">Пляжний</option>
+                  <option value="екскурсійний">Екскурсійний</option>
+                  <option value="гірський">Гірський</option>
+                  <option value="круїз">Круїз</option>
+                </select>
+
+                <button type="submit" class="submit-btn">Забронювати</button>
+              </form>
+            </td>
+          </tr>
+          <tr class="map">
+            <td colspan="2" class="map-container">
+              <h2 class="map-title">📍 Де ми знаходимося?</h2>
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10164.695232152022!2d30.513574675332233!3d50.4378631454337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf01deefc825%3A0xacd489bb95cccf69!2sKhreshchatyk!5e0!3m2!1sru!2sua!4v1733578996893!5m2!1sru!2sua"
+                  width="100%"
+                  height="300"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section footer-contact-info">
+          <h4 class="footer-title">Контакти</h4>
+          <table class="footer-table footer-contact-table">
+            <tr class="footer-row footer-phone-row">
+              <td class="footer-value">
+                <a href="tel:+380501234567" class="footer-link"
+                  >+38 (050) 123-45-67</a
+                >
+              </td>
+            </tr>
+            <tr class="footer-row footer-email-row">
+              <td class="footer-value">
+                <a href="mailto:horizont@gmail.com" class="footer-link"
+                  >horizont@gmail.com</a
+                >
+              </td>
+            </tr>
+            <tr class="footer-row footer-address-row">
+              <td class="footer-value">
+                <a
+                  href="https://goo.gl/maps/example"
+                  target="_blank"
+                  class="footer-link"
+                >
+                  Київ, вул. Хрещатик, 15
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="footer-section footer-quick-links">
+          <h4 class="footer-title">Швидкі посилання</h4>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="index.html" class="footer-link">Головна</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="tour.html" class="footer-link">Тури</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="contacts.html" class="footer-link">Контакти</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section footer-social-media">
+          <h4 class="footer-title">Ми в соцмережах</h4>
+          <table class="footer-social-table">
+            <tr class="footer-row">
+              <td class="footer-social-item">
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  class="footer-link"
+                  ><img src="img/facebook.png" alt="Іконка фейсбука"
+                /></a>
+              </td>
+            </tr>
+            <tr class="footer-row">
+              <td class="footer-social-item">
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  class="footer-link"
+                  ><img src="img/instagram.png" alt="Іконка інстаграма"
+                /></a>
+              </td>
+            </tr>
+            <tr class="footer-row">
+              <td class="footer-social-item">
+                <a
+                  href="https://www.tiktok.com/uk-UA/"
+                  target="_blank"
+                  class="footer-link"
+                  ><img src="img/tik-tok.png" alt="Іконка тік тока"
+                /></a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="footer-section footer-copyright">
+        <p class="footer-text">© 2024 Лихольот Марія. Усі права захищені.</p>
+      </div>
+    </footer>
+  </body>
+</html>
